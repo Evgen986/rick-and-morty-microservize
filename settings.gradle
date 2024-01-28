@@ -1,0 +1,3 @@
+rootProject.name = 'rick-and-morty'
+
+includeBuild 'eureka-server'
