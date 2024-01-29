@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c53e7b20-b649-4290-b1f4-a42d701b34b1" name="Changes" comment="" />
+    <list default="true" id="c53e7b20-b649-4290-b1f4-a42d701b34b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rick-and-morty-api/src/main/java/ru/maliutin/rickandmortyapi/models/UrlApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rick-and-morty-api/src/main/java/ru/maliutin/rickandmortyapi/services/ServiceApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rick-and-morty-api/src/main/java/ru/maliutin/rickandmortyapi/services/ServiceApiImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/ru/maliutin/configserver/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/ru/maliutin/configserver/ConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/ru/maliutin/eurekaserver/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/ru/maliutin/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick-and-morty-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/rick-and-morty-api/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick-and-morty-api/src/main/java/ru/maliutin/rickandmortyapi/RickAndMortyApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rick-and-morty-api/src/main/java/ru/maliutin/rickandmortyapi/RickAndMortyApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick-and-morty-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rick-and-morty-api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick-and-morty-web/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/rick-and-morty-web/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick-and-morty-web/src/main/java/ru/maliutin/rickandmortyweb/RickAndMortyWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rick-and-morty-web/src/main/java/ru/maliutin/rickandmortyweb/RickAndMortyWebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rick-and-morty-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rick-and-morty-web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +52,31 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/rick-and-morty-web">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -40,21 +87,106 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "19",
+    "last_opened_file_path": "D:/STUDIES/GeekBrains/Specialization/Spring/Seminars/seminar_6/rick-and-morty/rick-and-morty-web/src/main/resources/templates",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "105ccb1dec3fac1e0815351f71e9f016",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\STUDIES\GeekBrains\Specialization\Spring\Seminars\seminar_6\rick-and-morty\rick-and-morty-web\src\main\resources\templates" />
+      <recent name="D:\STUDIES\GeekBrains\Specialization\Spring\Seminars\seminar_6\rick-and-morty\rick-and-morty-web\src\main\java\ru\maliutin\rickandmortyweb\services" />
+      <recent name="D:\STUDIES\GeekBrains\Specialization\Spring\Seminars\seminar_6\rick-and-morty\rick-and-morty-web\src\main\java\ru\maliutin\rickandmortyweb\models" />
+      <recent name="D:\STUDIES\GeekBrains\Specialization\Spring\Seminars\seminar_6\rick-and-morty\rick-and-morty-api\src\main\java\ru\maliutin\rickandmortyapi\services" />
+      <recent name="D:\STUDIES\GeekBrains\Specialization\Spring\Seminars\seminar_6\rick-and-morty\rick-and-morty-api\src\main\java\ru\maliutin\rickandmortyapi\models" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.maliutin.rickandmortyweb.models" />
+      <recent name="ru.maliutin.rickandmortyweb.controllers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.rick-and-morty-web [compileJava]">
+    <configuration name="rick-and-morty-web [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/rick-and-morty-web" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="rick-and-morty-web [compileJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/rick-and-morty-web" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="compileJava" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.maliutin.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="config-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.maliutin.configserver.ConfigServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.maliutin.configserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -66,6 +198,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RickAndMortyApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rick-and-morty-api.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.maliutin.rickandmortyapi.RickAndMortyApiApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.maliutin.rickandmortyapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RickAndMortyWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rick-and-morty-web.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.maliutin.rickandmortyweb.RickAndMortyWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.rick-and-morty-web [compileJava]" />
+        <item itemvalue="Gradle.rick-and-morty-web [clean]" />
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
+        <item itemvalue="Spring Boot.RickAndMortyApiApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,7 +235,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706450963435</updated>
-      <workItem from="1706450964263" duration="799000" />
+      <workItem from="1706450964263" duration="957000" />
+      <workItem from="1706530766286" duration="12698000" />
     </task>
     <servers />
   </component>
