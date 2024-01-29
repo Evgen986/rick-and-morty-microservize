@@ -1,7 +1,6 @@
 package ru.maliutin.rickandmortyweb.services;
 
 
-import lombok.RequiredArgsConstructor;
 import org.springframework.http.*;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -11,7 +10,6 @@ import ru.maliutin.rickandmortyweb.models.UrlApi;
 
 
 import java.util.List;
-import java.util.Map;
 
 /**
  * Имплементация сервисного интерфейса.
@@ -55,6 +53,11 @@ public class ServiceApiImpl implements ServiceApi {
         return response.getBody();
     }
 
+    /**
+     * Получение всех пользователей по номеру страницы.
+     * @param page номер страницы.
+     * @return список пользователей с метаданными.
+     */
     public Characters getAllCharacters(Integer page) {
         System.out.println("В сервисе page = " + page);
         System.out.println("zapros = " + urlApi.getGetCharacters() + "?page=" + page);
@@ -72,7 +75,7 @@ public class ServiceApiImpl implements ServiceApi {
     /**
      * Получение конкретного персонажа.
      * @param id идентификатор персонажа.
-     * @return json ответ с персонажем.
+     * @return конкретный персонаж.
      */
     @Override
     public Result getHero(Integer id) {

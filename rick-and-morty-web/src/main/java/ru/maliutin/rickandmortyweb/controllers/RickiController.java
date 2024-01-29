@@ -1,6 +1,5 @@
 package ru.maliutin.rickandmortyweb.controllers;
 
-import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,11 +8,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 import ru.maliutin.rickandmortyweb.models.Characters;
 import ru.maliutin.rickandmortyweb.services.ServiceApi;
 
+/**
+ * Контролер web микросервиса.
+ */
 
 @Controller
 public class RickiController {
     /**
-     * Сервис для работы с API.
+     * Сервис для работы с микросервисом API.
      */
     private final ServiceApi serviceApi;
 
@@ -32,6 +34,7 @@ public class RickiController {
             @RequestParam(value = "page", required = false)
             Integer page, Model model){
         Characters characters;
+        // Проверяем передан ли параметр (номер страницы)
         if (page != null){
             characters = serviceApi.getAllCharacters(page);
         }else{
@@ -39,6 +42,7 @@ public class RickiController {
         }
         model.addAttribute("heroes", characters.getResults());
 
+        // Проверяем есть ли доступные страницы назад и вперед
         String next = null;
         if (characters.getInfo().getNext() != null){
             next = characters.getInfo().getNext();
